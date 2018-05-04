@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Personal Page</title>
+  <link rel="stylesheet" type="text/css" href="public/reset.css">
+  <link rel="stylesheet" type="text/css" href="public/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Bitter|Lobster" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img id="logo" src="https://static.websitecreator.eu/templates/creator/m_f/fb/fbd/76/assets/header_image_1.jpg?v=1465802425" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="headline">
+      <h1>Hi, I'm Connor Challis!</h1>
+      <h2>I'm a mechatronics engineering student.</h2>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img id="desktop" src="https://blogg.nordnet.no/wp-content/uploads/sites/2/2017/04/f16c114d9f9599c61ba6efa1247ecfe6.jpg" />
+      </div>
+      <div class="col">
+        <p>
+          I'm available for opportunities that will work with my class schedule.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <section id="about">
+    <div class="row top">
+      <h3>About</h3>
+    </div>
+    <div class="row bottom">
+      <div class="col">
+        <p>(skills)Give me a job pls</p>
+      </div>
+      <div class="col">
+        <p>(info about me)My interests are in virtual reality hardware, mechatronics systems, and robotics.</p>
+      </div>
+      <div class="col">
+        <p>(hobbies) I need the money D:</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+      <div class="row">
+        <div class="col">
+          <img  src="http://www.botmag.com/wp-content/uploads/2015/02/BattleBotsLogo.jpg" />
+          <a href="#">Robotics Projects</a>
+        </div>
+        <div class="col">
+          <img src="http://www.auburnjournal.com/sites/default/files/styles/photo_gallery_big/public/sierra-logo_1.jpg?itok=pnvdyTlD" />
+          <a href="#">School Projects</a>
+        </div>
+        <div class="col">
+          <img src="http://www.park.ac.in/wp-content/uploads/2014/10/mechatronics.jpg" />
+          <a href="#">Personal Projects</a>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <h3 id="contact">Contact</h3>
+    <p>
+      Connor Challis | con_chall@yahoo.com | @twitter_handle
+    </p>
+    <div>
+      <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+    </div>
+  </footer>
+
+</body>
+</html>
